@@ -1,6 +1,11 @@
 package com.twitter;
 import java.util.LinkedList;
 import com.twitter.poruke.TwitterPoruka;
+/**
+ * Ova Klasa predstavlja sve Twitter Poruke i osnovne metode nad njima
+ * @author Dusica
+ * @version 1.1
+ */
 
 public class Twitter {
 	/**
@@ -33,6 +38,7 @@ public class Twitter {
 	 * @param maxBroj kapacitet niza, broj poruka koje treba da vrati
 	 * @param tag tag koji treba da sadrzi poruka
 	 * @return poruke kao niz
+	 * @throws java.lang.RuntimeException ako je unet nula ili prazan String
 	 */
 	public TwitterPoruka[] vratiPoruke(int maxBroj, String tag) {
 		 if (tag==null || tag.isEmpty())

@@ -1,8 +1,8 @@
 package com.twitter.poruke;
 /**
- * 
+ * Ova Klasa predstavlja Twitter poruku
  * @author Dusica
- *
+ * @version 1.1
  */
 public class TwitterPoruka {
 	/**
